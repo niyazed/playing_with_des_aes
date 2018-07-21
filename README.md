@@ -1,2 +1,5 @@
 # playing_with_des_aes
-DES and AES Encryption and Decryption example
+## Encryption and Decryption example
+  -DES  (Data Encryption Standard)
+  -AES (Advanced Encryption Standard)
+
