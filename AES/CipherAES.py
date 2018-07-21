@@ -9,10 +9,15 @@ def key():
 	if len(key) == 16 or len(key) == 24 or len(key) == 32:
 		print("Key: %r" % key)
 		print("+-----------------------------+")
+		return key
 	
 	else:
-		print("Key has to be a multiple of 16/24/32 bytes")
-	return key
+		print("Key has to be  16/24/32 bytes\n")
+		default_key = "This_key_for_demo_purposes_only!"
+		print ("Using The Default Key: %r" % default_key)
+		print("+-----------------------------+")
+		return default_key
+	
 	
 
 def encrypt():

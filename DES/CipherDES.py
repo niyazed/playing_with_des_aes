@@ -7,10 +7,15 @@ def key():
 	key = f.read()
 	f.close()
 	if len(key) != 8:
-		print("Key has to be a multiple of 8 bytes | e.g 12345678")
+		print("Key has to be a multiple of 8 bytes | e.g 12345678\n")
+		default_key = "This_key_for_demo_purposes_only!"
+		print ("Using The Default Key: %r" % default_key)
+		print("+-----------------------------+")
+		return default_key
 	print("Key: %r" % key)
 	print("+-----------------------------+")
 	return key
+	
 	
 
 def encrypt():
